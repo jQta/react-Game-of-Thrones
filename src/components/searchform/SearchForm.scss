@@ -1,0 +1,28 @@
+.search-container {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 2.4vh;
+  left: 9vw;
+  border-bottom: 1px solid white;
+
+  &:before {
+    content: url("../../assets/images/loupe.svg");
+    margin: 0.6vh 0.3vh;
+  }
+
+  &__input {
+    border: none;
+    padding: 0.9vh;
+    font-size: 1.9vh;
+    color: white;
+    background-color: black;
+    width: 23vw;
+  }
+}
+
+@media (max-width: 800px) {
+  .search-container {
+    left: 11vw;
+  }
+}

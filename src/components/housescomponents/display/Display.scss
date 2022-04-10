@@ -1,0 +1,55 @@
+.feature-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 99vw;
+}
+
+.display-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 50vh;
+  margin-top: 82px;
+
+  &__image {
+    width: 248px;
+    height: 300px;
+  }
+
+  &__caption {
+    font-family: "GameOfThrone";
+    font-size: 34px;
+    margin-top: 32px;
+  }
+
+  &__text {
+    color: white;
+    text-align: center;
+    padding: 8px;
+  }
+}
+
+.display-box {
+  width: 90%;
+  margin-top: 64px;
+}
+
+h3 {
+  margin-bottom: 32px;
+}
+
+@media (max-width: 414px) {
+  .display-container {
+    margin-top: 128px;
+  }
+}
+
+@media (max-width: 375px) {
+  .display-container {
+    margin-top: 162px;
+  }
+}

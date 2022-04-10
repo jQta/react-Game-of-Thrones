@@ -1,0 +1,75 @@
+.exhibitor-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 132px;
+
+  &__box {
+    padding-top: 32px;
+    width: 85%;
+    height: 750px;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scrollbar-color: white #443d3d;
+    scrollbar-width: thin;
+    padding: 0px 32px;
+  }
+}
+
+.row::-webkit-scrollbar {
+  width: 4px;
+  background-color: #443d3d;
+}
+
+.row::-webkit-scrollbar-thumb {
+  width: 4px;
+  height: 91.3px;
+  background-color: white;
+}
+
+.badge-box {
+  &__image {
+    width: 222px;
+    height: 297px;
+  }
+}
+
+h3 {
+  margin-top: 8px;
+  font-family: "GameOfThrone";
+  text-decoration: none;
+  text-align: center;
+  line-height: normal;
+  color: white;
+  word-spacing: 0.25em;
+}
+
+@media (max-width: 800px) {
+  .exhibitor-container__box {
+    height: 1048px;
+  }
+}
+
+@media (max-width: 428px) {
+  .exhibitor-container__box {
+    height: 736px;
+  }
+}
+
+@media (max-width: 414px) {
+  .exhibitor-container__box {
+    height: 542px;
+  }
+}
+
+@media (max-width: 375px) {
+  .exhibitor-container__box {
+    height: 485px;
+  }
+}
+
+@media (max-width: 320px) {
+  .exhibitor-container__box {
+    height: 390px;
+  }
+}

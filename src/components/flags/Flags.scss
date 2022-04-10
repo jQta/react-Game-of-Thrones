@@ -1,0 +1,23 @@
+.flag-container {
+  position: absolute;
+  top: 20px;
+  right: 12.5rem;
+
+  &__item {
+    width: 5.5vh;
+    height: 5.5vh;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 810px) {
+  .flag-container {
+    right: 4.5em;
+  }
+}
+
+@media (max-width: 576px) {
+  .flag-container {
+    right: 2.5em;
+  }
+}
