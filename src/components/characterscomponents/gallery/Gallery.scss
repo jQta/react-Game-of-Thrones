@@ -1,12 +1,12 @@
 .gallery-container {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 132px;
 
   &__box {
     padding-top: 32px;
     width: 85%;
-    height: 700px;
+    height: 624px;
     overflow: scroll;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -14,17 +14,17 @@
     scrollbar-width: thin;
     padding: 0px 32px;
   }
-}
 
-.row::-webkit-scrollbar {
-  width: 4px;
-  background-color: #443d3d;
-}
+  &__box::-webkit-scrollbar {
+    width: 4px;
+    background-color: #443d3d;
+  }
 
-.row::-webkit-scrollbar-thumb {
-  width: 4px;
-  height: 91.3px;
-  background-color: white;
+  &__box::-webkit-scrollbar-thumb {
+    width: 4px;
+    height: 91.3px;
+    background-color: white;
+  }
 }
 
 .portrait-box {
