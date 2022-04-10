@@ -1,12 +1,12 @@
 .gallery-container {
   display: flex;
   justify-content: center;
-  margin-top: 80px;
+  margin-top: 50px;
 
   &__box {
     padding-top: 32px;
     width: 85%;
-    height: 672px;
+    height: 700px;
     overflow: scroll;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -28,7 +28,7 @@
 }
 
 .portrait-box {
-  height: 320px;
+  height: 256px;
   margin: 24px 0px;
   text-align: center;
 
