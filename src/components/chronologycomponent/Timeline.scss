@@ -5,7 +5,7 @@
 
   &__circle {
     position: absolute;
-    left: 48.4vw;
+    left: 48.2vw;
     top: 42px;
     width: 59px;
     height: 59px;
@@ -21,7 +21,7 @@
 
   &__arrow {
     position: absolute;
-    left: 48.565vw;
+    left: 48.365vw;
     top: 122px;
     width: 52px;
     height: 25px;
@@ -29,7 +29,7 @@
 
     &--rotated {
       position: absolute;
-      left: 48.565vw;
+      left: 48.365vw;
       top: 122px;
       width: 52px;
       height: 25px;
@@ -39,7 +39,7 @@
 
   .timeline-pack {
     width: 85%;
-    height: 825px;
+    height: 622px;
     overflow: scroll;
     overflow-x: hidden;
     overflow-y: scroll;
