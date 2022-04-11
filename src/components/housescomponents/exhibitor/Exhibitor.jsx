@@ -18,7 +18,7 @@ export default function Exhibitor() {
                             house.logoURL && <div className="col-12 col-md-6 col-lg-2" key={house._id}>
                                 <figure className="badge-box">
                                     <Link to={generatePath("/houses/:name", { name: house.name })}> <img className="badge-box__image" src={house.logoURL} alt={house.name} /></Link>
-                                    <h3>{house.name}</h3>
+                                    <h3 className="badge-box__text">{house.name}</h3>
                                 </figure>
                             </div>
                         ))};

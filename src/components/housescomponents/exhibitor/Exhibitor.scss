@@ -6,9 +6,7 @@
   &__box {
     padding-top: 32px;
     width: 85%;
-    height: 624px;
-    overflow: scroll;
-    overflow-x: hidden;
+    height: 692px;
     overflow-y: scroll;
     scrollbar-color: white #443d3d;
     scrollbar-width: thin;
@@ -32,44 +30,38 @@
     width: 232px;
     height: 232px;
   }
-}
 
-h3 {
-  margin-top: 8px;
-  font-family: "GameOfThrone";
-  text-decoration: none;
-  text-align: center;
-  line-height: normal;
-  color: white;
-  word-spacing: 0.25em;
-}
-
-@media (max-width: 800px) {
-  .exhibitor-container__box {
-    height: 1048px;
+  &__text {
+    margin-top: 8px;
+    font-family: "GameOfThrone";
+    text-decoration: none;
+    text-align: center;
+    line-height: normal;
+    color: white;
+    word-spacing: 0.25em;
   }
 }
 
-@media (max-width: 428px) {
+@media (max-width: 3440px) {
   .exhibitor-container__box {
-    height: 736px;
+    height: 852px;
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 2048px) {
   .exhibitor-container__box {
-    height: 542px;
+    height: 612px;
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 728px) {
   .exhibitor-container__box {
-    height: 485px;
+    height: 692px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 480px) {
   .exhibitor-container__box {
-    height: 390px;
+    height: 448px;
   }
 }
